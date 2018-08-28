@@ -1,0 +1,29 @@
+body {
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    padding: 10px 5px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+footer p {
+    flex: 1;
+    margin: 0;
+}
+
+footer ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
