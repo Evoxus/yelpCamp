@@ -16,15 +16,22 @@ body {
     min-width: 200px;
 }
 
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
 footer {
+    color: #828282;
     display: flex;
     padding: 10px 5px;
-    background-color: #000;
     position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
 }
 
 footer p {
@@ -59,22 +66,22 @@ footer p {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(http://i.imgur.com/K3mPv14.jpg);
+  background-image: url(../images/matt-whitacre-768748-unsplash.jpg);
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(http://i.imgur.com/SBEmFpv.jpg);
+  background-image: url(../images/christopher-jolly-147391-unsplash.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(http://i.imgur.com/emvhOnb.jpg);
+  background-image: url(../images/tommy-lisbin-211935-unsplash.jpg);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
+  background-image: url(../images/sayan-nath-165552-unsplash.jpg);
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
+  background-image: url(../images/andrew-scofield-101531-unsplash.jpg);
   animation-delay: 40s; 
 }
 
