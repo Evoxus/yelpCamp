@@ -66,22 +66,22 @@ footer p {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(../images/matt-whitacre-768748-unsplash.jpg);
+  background-image: url(../images/matt-whitacre-768748-unsplash-resize.jpg);
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(../images/christopher-jolly-147391-unsplash.jpg);
+  background-image: url(../images/christopher-jolly-147391-unsplash-resize.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(../images/tommy-lisbin-211935-unsplash.jpg);
+  background-image: url(../images/tommy-lisbin-211935-unsplash-resize.jpg);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(../images/sayan-nath-165552-unsplash.jpg);
+  background-image: url(../images/sayan-nath-165552-unsplash-resize.jpg);
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(../images/andrew-scofield-101531-unsplash.jpg);
+  background-image: url(../images/andrew-scofield-101531-unsplash-resize.jpg);
   animation-delay: 40s; 
 }
 
