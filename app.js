@@ -21,7 +21,6 @@ const commentRoutes  = require("./routes/comments"),
 
 // DATABASE CONNECTION
 mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true});
-// mongoose.connect('mongodb://michael:bigdog1@ds141972.mlab.com:41972/yelpcamp', {useNewUrlParser: true});
 
 // APP MODULES
 app.use(bodyParser.urlencoded({extended: true}));
